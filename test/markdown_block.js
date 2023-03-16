@@ -1,4 +1,4 @@
-var nunjucks = require('nunjucks'),
+var nunjucks = require('govuk-prototype-kit/node_modules/nunjucks'),
     expect   = require('chai').expect,
     marked   = require('marked'),
     markdown = require('../index'),

@@ -27,7 +27,7 @@
     "marked": "^0.3.3"
   },
   "peerDependencies": {
-    "nunjucks": "^2.3.0 || ^3.0.0"
+    "govuk-prototype-kit": "^13.0.0"
   },
   "directories": {
     "test": "test"
