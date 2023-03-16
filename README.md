@@ -1,4 +1,6 @@
-# nunjucks-markdown [![Build Status](https://travis-ci.org/zephraph/nunjucks-markdown.svg)](https://travis-ci.org/zephraph/nunjucks-markdown)
+# govuk-prototype-kit-nunjucks-markdown-plugin
+
+A fork of [nunjucks-markdown](https://github.com/zephraph/nunjucks-markdown) that works with the [GOV.UK Prototype Kit](https://prototype-kit.service.gov.uk/docs/).
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/zephraph/nunjucks-markdown.svg)](https://greenkeeper.io/)
 
@@ -7,7 +9,7 @@ A nunjuck extension that adds a markdown tag. This plugin allows you to choose y
 ## Install
 
 ``` bash
-npm install nunjucks-markdown --save
+npm install @lfdebrux/nunjucks-markdown --save
 ```
 
 ## Usage

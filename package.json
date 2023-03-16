@@ -1,11 +1,11 @@
 {
-  "name": "nunjucks-markdown",
-  "version": "2.0.1",
-  "description": "A markdown extension for nunjucks",
+  "name": "@lfdebrux/nunjucks-markdown",
+  "version": "0.0.1",
+  "description": "A markdown extension for nunjucks for use with the GOV.UK Prototype Kit",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zephraph/nunjucks-markdown.git"
+    "url": "https://github.com/lfdebrux/govuk-prototype-kit-nunjucks-markdown-plugin.git"
   },
   "keywords": [
     "nunjucks",
@@ -13,13 +13,14 @@
   ],
   "author": "Zephraph",
   "contributors": [
+    "Laurence de Bruxelles (https://github.com/lfdebrux)",
     "Gary Green (https://github.com/garygreen)"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zephraph/nunjucks-markdown/issues"
+    "url": "https://github.com/lfdebrux/govuk-prototype-kit-nunjucks-markdown-plugin/issues"
   },
-  "homepage": "https://github.com/zephraph/nunjucks-markdown",
+  "homepage": "https://github.com/lfdebrux/govuk-prototype-kit-nunjucks-markdown-plugin",
   "devDependencies": {
     "chai": "^4.0.2",
     "mocha": "^3.4.2",
