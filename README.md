@@ -14,17 +14,14 @@ npm install @lfdebrux/nunjucks-markdown --save
 
 ## Usage
 
-Register the extension with nunjucks
+In your prototype's `app/routes.js`, setup the plugin
 
 ``` js
-var nunjucks = require('nunjucks'),
-    markdown = require('nunjucks-markdown'),
-    marked = require('marked');
+const markdown = require('@lfdebrux/nunjucks-markdown')
+const marked = require('marked')
 
-var env = nunjucks.configure('views');
-
-// The second argument can be any function that renders markdown
-markdown.register(env, marked);
+// The first argument can be any function that renders markdown
+router.use(markdown.setupPlugin(marked.parse))
 ```
 
 Add markdown to your templates
